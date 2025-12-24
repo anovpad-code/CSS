@@ -1,0 +1,10 @@
+# Mengabaikan file sistem
+.DS_Store
+Thumbs.db
+
+# Mengabaikan folder log
+npm-debug.log*
+logs/
+
+# Mengabaikan file konfigurasi pribadi
+.env
