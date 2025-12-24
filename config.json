@@ -1,0 +1,9 @@
+{
+  "theme": "radical",
+  "language": "id-ID",
+  "version": "1.0.0",
+  "features": {
+    "darkMode": true,
+    "responsive": true
+  }
+}
