@@ -33,3 +33,36 @@ p {
     font-size: 0.9rem;
     color: #50fa7b; /* Warna hijau indikator */
 }
+
+
+header {
+    background: #282a36;
+    padding: 50px;
+    border-bottom: 5px solid #ff79c6;
+}
+
+section {
+    margin: 20px;
+    padding: 20px;
+    line-height: 1.6;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background: #44475a;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Animasi tambahan */
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+.container {
+    animation: fadeIn 2s ease-in;
+}
