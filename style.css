@@ -1,44 +1,35 @@
-/* Custom Style by Angelice Novena */
-
-:root {
-  --main-pink: #ffafbd;
-  --main-purple: #c9ffbf;
-  --dark-accent: #2d3436;
-}
+/* Gaya Minimalis Angelice */
 
 body {
-  /* Membuat latar belakang gradasi yang lembut */
-  background: linear-gradient(135deg, #ffafbd 0%, #ffc3a0 100%);
-  font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
-  color: var(--dark-accent);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  margin: 0;
+    background-color: #1a1a1a; /* Hitam gelap agar senada dengan GitHub */
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
 }
 
-.profile-card {
-  /* Membuat kotak kartu yang modern */
-  background: white;
-  padding: 2rem;
-  border-radius: 20px;
-  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
-  text-align: center;
-  transition: transform 0.3s ease;
-}
-
-.profile-card:hover {
-  /* Efek sedikit melayang saat disentuh mouse */
-  transform: translateY(-5px);
+.container {
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #333;
+    border-radius: 8px;
 }
 
 h1 {
-  color: #d63384; /* Warna pink gelap */
-  margin-bottom: 0.5rem;
+    color: #ff79c6; /* Warna pink khas tema Radical kamu */
+    margin-bottom: 10px;
 }
 
 p {
-  color: #6c757d;
-  font-size: 1.1rem;
+    color: #bd93f9; /* Warna ungu lembut */
+    font-size: 1.2rem;
+}
+
+.status {
+    margin-top: 15px;
+    font-size: 0.9rem;
+    color: #50fa7b; /* Warna hijau indikator */
 }
