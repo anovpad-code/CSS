@@ -1,0 +1,8 @@
+.button-neon {
+  padding: 10px 20px;
+  border: 2px solid var(--primary-color);
+  background: transparent;
+  color: var(--primary-color);
+  cursor: pointer;
+  border-radius: 5px;
+}
