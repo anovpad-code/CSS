@@ -1,0 +1,44 @@
+/* Custom Style by Angelice Novena */
+
+:root {
+  --main-pink: #ffafbd;
+  --main-purple: #c9ffbf;
+  --dark-accent: #2d3436;
+}
+
+body {
+  /* Membuat latar belakang gradasi yang lembut */
+  background: linear-gradient(135deg, #ffafbd 0%, #ffc3a0 100%);
+  font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  color: var(--dark-accent);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.profile-card {
+  /* Membuat kotak kartu yang modern */
+  background: white;
+  padding: 2rem;
+  border-radius: 20px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.profile-card:hover {
+  /* Efek sedikit melayang saat disentuh mouse */
+  transform: translateY(-5px);
+}
+
+h1 {
+  color: #d63384; /* Warna pink gelap */
+  margin-bottom: 0.5rem;
+}
+
+p {
+  color: #6c757d;
+  font-size: 1.1rem;
+}
